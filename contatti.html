@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Il nostro sito parla di informatica">
+    <meta name="keywords" content="informatica,softwer,programmazione,java,html">
+    <meta name="author" content="Classe di bitcamp">
+    <meta name="revisit-after" content="7 days">
+    <meta name="lenguage" content="it">
+    <meta name="generator" content="visual studio">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:#291514;">
+    <div id="divh1">
+        <h1>Informazioni di contatto</h1> 
+    </div> 
+        <div id="infocontatto"> 
+            <p>
+                Qui di seguito le nostre <br> informazioni di contatto.
+            </p>
+        <ul>
+            <li>Siamo in Via Galileo Galilei 1. 54033. Carrara. Italia.</li>
+            <li>Telefonaci al +39 351 8248607 </li>
+            <li>Indirizzo email: info@alextheorylab.com</li>
+            <li>Oppure scrivici direttamente un tuo messaggio nella sezione sottostante</li>
+        </ul>
+        </div> 
+            <div id="listapagine">
+                <ul>
+                    <li><a href="index.html">Home Page</a></li><br>
+                    <li><a href="menu.html">Menu</a></li><br>
+                    <li><a href="chiSiamo.html">Chi siamo</a></li><br>
+                    <li><a href="prenotazioni.html">Prenotazioni</a></li><br>
+                </ul>
+            </div>
+    <!--da qui inserisco la sezione modulo di contatto-->
+        <div id="nomemail">
+        <table>
+        <section>
+        <form action="process.php" method="post">
+            <label for="nome">nome</label>
+            <input type="text" id="nome" name="nome"> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"> <br>
+
+            <label for="messaggio">Inserisci qui il tuo messaggio</label>
+            <textarea id="messaggio" name="messaggio"></textarea> <br>
+
+            <input type="submit" value="Invia"> <br>
+        </form>
+        </section>
+    </div>
+    </table>
+</body>
+</html>
